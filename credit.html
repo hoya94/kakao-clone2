@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="/js-CreditCardValidator-master/styles.css" />
+    <script src="/js-CreditCardValidator-master/creditCardValidator.js"></script>
+
+    <title>Challenge Mate</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__header-column">
+        <h1 class="header__title">Credit</h1>
+      </div>
+      <div class="header__header-column">
+        <span class="header__icon">
+                <a href="health.html">
+          <i class="fas fa-dumbbell"></i>
+        </span>
+        <span class="header__icon">
+                <a href="reading.html">
+          <i class="fas fa-book-open"></i>
+        </span>
+        <span class="header__icon">
+          <a href="settings.html">
+            <i class="fas fa-cog"></i>
+          </a>
+        </span>
+        <span class="header__icon">
+          <a href="settings.html">
+            <i class="fas fa-cog"></i>
+          </a>
+        </span>
+      </div>
+    </header>
+    
+    <!-- credit care fuction-->
+    
+    <div class="card-bounding">
+
+            <aside>Card Number:</aside>
+            <div class="card-container">
+              <!-- ".card-type" is a sprite used as a background image with associated classes for the major card types, providing x-y coordinates for the sprite -->
+              <div class="card-type"></div>
+              <input placeholder="0000 0000 0000 0000" onkeyup="$cc.validate(event)" />
+              <!-- The checkmark ".card-valid" used is a custom font from icomoon.io -->
+              <div class="card-valid">&#xea10;</div>
+            </div>
+          
+            <div class="card-details clearfix">
+          
+              <div class="expiration">
+                <aside>Expiration Date</aside>
+                <input onkeyup="$cc.expiry.call(this,event)" maxlength="7" placeholder="mm/yyyy" />
+              </div>
+          
+              <div class="cvv">
+                <aside>CVV</aside>
+                <input placeholder="XXX" maxlength="3"/>
+                <div align=right></div>
+                    <br>
+                <a href="index.html">
+                        <i class="far fa-arrow-alt-circle-right fa-2x"></i>
+                    </a>
+                </div>
+              </div>
+
+              
+              
+                
+            
+        </div>
+          
+    </div>
+  
+   
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="friends.html" class="nav__list-link">
+            <i class="fas fa-handshake"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="index.html" class="nav__list-link">
+            <i class="fas fa-plus"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="find.html" class="nav__list-link">
+            <i class="fas fa-chart-line"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link">
+            <i class="fas fa-user"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!---f
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small! 😱</span>
+    </div>
+  -->
+
+  
+
+  </body>
+</html>
+

@@ -1,1 +1,1 @@
-# kakao clone2
+# kakao-clone-v2
