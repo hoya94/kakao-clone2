@@ -10,8 +10,9 @@
 }
 
 .friend__avatar.g-avatar {
-  width: 100%;
+  width: 40%;
 }
+
 .friend__avatar.m-avatar {
   width: 100%;
 }
